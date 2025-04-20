@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+     <title> WEEK 2 ASSIGNMENT</title>
+    </head>
+  
+    <body>
+        <h2>Ordered Lists</h2>
+        <ol type="I">
+            <li>Manchester United</li>
+            <li>Arsenal</li>
+            <li>Real Madrid</li>
+            <li>Liverpool</li>
+        </ol>
+
+        <h2> External Images</h2>
+        <img src="https://images.pexels.com/photos/1854664/pexels-photo-1854664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="white chocolate" height="500" width="500">
+        
+        <h2> Contact Table</h2>
+        <Table border="1">
+            <thead>
+                <tr>
+                    <th> Name</th>
+                    <th> Adress</th>
+                    <th> Mobile</th>
+                    <th> Emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Emmanuel</td>
+                    <td> 01-oak Road</td>
+                    <td> 123456</td>
+                    <td> emman@gmail.com</td>  
+                </tr>
+                <tr>
+                    <td> Coco</td>
+                    <td> 5533-msabati</td>
+                    <td> 890764</td>
+                    <td> coco@yahoo.com</td>  
+                </tr>
+                <tr>
+                    <td> Kerry</td>
+                    <td> 15545-mbag</td>
+                    <td> 376951</td>
+                    <td>kerry@outlook.com</td>  
+                </tr>
+                <tr>
+                    <td> Reagan</td>
+                    <td> 00503-rong</td>
+                    <td> 245643</td>
+                    <td>reag@gmail.com</td>  
+                </tr>
+                <tr>
+                    <td> Glennah</td>
+                    <td> 0078-riverine</td>
+                    <td> 678543</td>
+                    <td>oyuk@outlook.com</td>  
+                </tr>
+            </tbody>
+        </Table>
+        <h2>Registration Form </h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="email" id="email"name="email" required placeholder="JohnDoe@gmail.com">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password"name="password" required placeholder="12345678">
+            <br><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+           <label for="country">Country:</label><br>
+           <select id="country" name="country" required>
+           <option value="">-- Select Country --</option>
+           <option value="kenya">Kenya</option>
+           <option value="tanzania">Tanzania</option>
+           <option value="uganda">Uganda</option>
+           </select><br><br>
+
+           <!-- Radio Buttons (Gender) -->
+           <label>Gender:</label><br>
+           <input type="radio" id="male" name="gender" value="male" required>
+           <label for="male">Male</label><br>
+
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label><br><br>
+
+          <!-- Checkboxes (Hobbies) -->
+          <label>Hobbies:</label><br>
+          <input type="checkbox" id="reading" name="hobbies" value="reading">
+          <label for="reading">Reading</label><br>
+
+          <input type="checkbox" id="sports" name="hobbies" value="sports">
+          <label for="sports">Sports</label><br>
+
+          <input type="checkbox" id="music" name="hobbies" value="music">
+          <label for="music">Music</label><br><br>
+
+          <!-- Submit Button -->
+          <input type="submit" value="Register">
+            
+        </form>
+    </body>
+</html>
